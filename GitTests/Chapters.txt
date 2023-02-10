@@ -12,6 +12,9 @@ Chapter 2
     b. Will this also cause conflict
     c. Let's add more changes
 Chapter 3
+    a. Start of changes in Chapter 3
+    b. Second line added in Ch3 1.1
+    c. third line added in Ch3 1.2
 Chapter 4
 Chapter 5
 Chapter 6
