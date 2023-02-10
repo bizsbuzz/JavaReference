@@ -17,6 +17,8 @@ Chapter 3
     c. third line added in Ch3 1.2
     e. This change is critical 1.3
     h. This is absoultely needed 1.5
+    g. 1.6 change not needed
+
 Chapter 4
 Chapter 5
 Chapter 6
