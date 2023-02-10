@@ -5,6 +5,7 @@ Chapter 1
         d. This should create merge conflict - now this is resolved 
         e. Added in main branch
         e. This was added in Chapter1 branch
+        f. Yet another addition in main
 Chapter 2
     a. This is the start of chapter 2 on main branch
 Chapter 3
