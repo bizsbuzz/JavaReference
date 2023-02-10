@@ -6,6 +6,7 @@ Chapter 1
         e. Added in main branch
         e. This was added in Chapter1 branch
         f. Yet another addition in main
+        g. More changes from main
 Chapter 2
     a. This is the start of chapter 2 on main branch. This will cause rebase conflict
     b. Will this also cause conflict
