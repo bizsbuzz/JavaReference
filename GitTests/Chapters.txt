@@ -20,6 +20,7 @@ Chapter 3
     g. 1.6 change not needed
     h. 1.7 is needed
     i. Let's add this change to previous commit using amend
+    j. Add new section
 
 Chapter 4
 Chapter 5
