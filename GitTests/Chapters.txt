@@ -1,6 +1,7 @@
 Chapter 1
         a. This is the start of Chapter1 on a feature branch Chapter1
         b. Let's do another commit on this new branch
+        c. Make another change
 Chapter 2
 Chapter 3
 Chapter 4
