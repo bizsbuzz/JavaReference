@@ -8,8 +8,9 @@ Chapter 1
         f. Yet another addition in main
         g. More changes from main
 Chapter 2
-    a. This is the start of chapter 2 on main branch. This will cause rebase conflict
+    a. This is the start of chapter 2 on main branch. Fixed this rebase conflict
     b. Will this also cause conflict
+    c. Let's add more changes
 Chapter 3
 Chapter 4
 Chapter 5
