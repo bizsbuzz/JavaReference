@@ -3,6 +3,7 @@ Chapter 1
         b. Let's do another commit on this new branch
         c. Make another change
         d. This should create merge conflict - now this is resolved 
+        e. This was added in Chapter1 branch
 Chapter 2
     a. This is the start of chapter 2 on main branch
 Chapter 3
