@@ -1,5 +1,8 @@
 Chapter 1
-    a. This should create merge conflict
+        a. This is the start of Chapter1 on a feature branch Chapter1
+        b. Let's do another commit on this new branch
+        c. Make another change
+        d. This should create merge conflict - now this is resolved 
 Chapter 2
     a. This is the start of chapter 2 on main branch
 Chapter 3
