@@ -1,0 +1,389 @@
+2019-03-01 11:48:45,180-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: MetricTags
+2019-03-01 11:48:45,180-0800 INFO  - Executing command Copy: Copy [NorthwindADR]\..\load.lock [NorthwindADR]
+2019-03-01 11:48:45,250-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2019-03-01 11:48:45,252-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: CheckIn
+2019-03-01 11:48:45,805-0800 INFO  - Initialized Mongo-db connection for Metadata service
+2019-03-01 11:48:47,438-0800 INFO  - Registered BouncyCastleFipsProvider at preference position: 11
+2019-03-01 11:48:47,587-0800 INFO  - JDBC Driver information: Microsoft JDBC Driver 4.0 for SQL Server, 4.0.2206.100, JDBC Version: 4.0
+2019-03-01 11:48:47,587-0800 INFO  - Database information: Microsoft SQL Server, 12.00.5000, 12.0
+2019-03-01 11:48:47,682-0800 WARN  - Could not find Categories.Categories-1697024394 when trying to set the surrogate key - could be UNMAPPED
+2019-03-01 11:48:47,683-0800 WARN  - Could not find Suppliers.Suppliers-1331426417 when trying to set the surrogate key - could be UNMAPPED
+2019-03-01 11:48:48,090-0800 INFO  - Variable: LoadInitiatedTime = 3/1/2019 11:48 AM
+2019-03-01 11:48:48,090-0800 INFO  - Variable: LoadDate = 03/01/2019
+2019-03-01 11:48:48,090-0800 INFO  - Variable: SCHEMA = [NorthwindADR]
+2019-03-01 11:48:48,091-0800 INFO  - Variable: LoadStartTime = 2019-03-01T11:47:38-08:00
+2019-03-01 11:48:48,091-0800 INFO  - Variable: LoadNumber = 2
+2019-03-01 11:48:48,091-0800 INFO  - Variable: LoadDateSFDC = 2019-03-01T00:00:00-08:00
+2019-03-01 11:48:48,091-0800 INFO  - Variable: LoadCompletionTime = 2019-03-01T11:47:40-08:00
+2019-03-01 11:48:48,334-0800 INFO  - Elapsed Time = 0 minutes, 3 seconds for: Repository
+2019-03-01 11:48:49,167-0800 INFO  - Set repository variable 'LoadDate' to value '03/01/2019'
+2019-03-01 11:48:49,167-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: SetVariable
+2019-03-01 11:48:49,167-0800 INFO  - Set repository variable 'USER' to value 'wzhang@birst.com'
+2019-03-01 11:48:49,167-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: SetVariable
+2019-03-01 11:48:49,168-0800 INFO  - Clearing ETL history for 2
+2019-03-01 11:48:49,168-0800 INFO  - Deleting previous data from TXN_COMMAND_HISTORY
+2019-03-01 11:48:49,197-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ResetETLRun
+2019-03-01 11:48:49,199-0800 INFO  - Logging step LoadMarker [ACORN] for iteration 2, status Running
+2019-03-01 11:48:49,201-0800 INFO  - Starting LoadMarker [ACORN]
+2019-03-01 11:48:49,201-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadMarker
+2019-03-01 11:48:49,212-0800 INFO  - Logging step GenerateSchema for iteration 2, status Running
+2019-03-01 11:48:49,214-0800 INFO  - Starting GenerateSchema
+2019-03-01 11:48:49,217-0800 INFO  - Deleting previous data from TXN_OBJECT_HISTORY
+2019-03-01 11:48:49,271-0800 INFO  - Logging step GenerateSchema for iteration 2, status Complete
+2019-03-01 11:48:49,273-0800 INFO  - Finished GenerateSchema
+2019-03-01 11:48:49,273-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: GenerateSchema
+2019-03-01 11:48:49,283-0800 INFO  - Logging step LoadStaging [ACORN] for iteration 2, status Running
+2019-03-01 11:48:49,284-0800 INFO  - Starting LoadStaging [ACORN]
+2019-03-01 11:48:49,600-0800 INFO  - Logging step LoadStaging [ACORN] for iteration 2, status Complete
+2019-03-01 11:48:49,602-0800 INFO  - Finished LoadStaging [ACORN]
+2019-03-01 11:48:49,603-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadStaging
+2019-03-01 11:48:49,603-0800 INFO  - Executing command Copy: Copy [NorthwindADR]\..\publish.lock [NorthwindADR]
+2019-03-01 11:48:49,611-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2019-03-01 11:48:49,615-0800 INFO  - Logging step LoadWarehouse [ACORN] for iteration 2, status Running
+2019-03-01 11:48:49,617-0800 INFO  - Starting LoadWarehouse [ACORN]
+2020-03-12 13:09:09,046+0530 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'TOP'. com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'TOP'.
+2019-03-01 11:48:49,637-0800 INFO  - Order of loading dimension tables: [Product Product, Orders Orders, Customers Customers, Employees Employees, Shipers Shippers]
+2019-03-01 11:48:49,640-0800 INFO  - Logging step LoadWarehouse [Product Product] for iteration 2, status Running
+2019-03-01 11:48:49,642-0800 INFO  - Starting LoadWarehouse [Product Product]
+2019-03-01 11:48:49,643-0800 INFO  - Unable to load dimension table [Product Product] from staging table [ST_SC_Orders]: natural keys not available at level Product
+2019-03-01 11:48:49,644-0800 INFO  - Probing staging table ST_Orders_Details for DISTINCT to load Product Product
+2019-03-01 11:48:49,645-0800 INFO  - Not distinct
+2019-03-01 11:48:49,647-0800 INFO  - Updating surrogate keys for load id 2 in dimension table Product Product
+2019-03-01 11:48:49,648-0800 INFO  - Inserting new records into table Product Product from staging table ST_Orders_Details
+2019-03-01 11:48:49,648-0800 INFO  - [QUERY:1551469729648:INSERT 
+INTO [NorthwindADR].DW_DM_PRODUCT_PRODUCT (ProductID$,LOAD_ID,ST_Orders_Details_CKSUM$) 
+SELECT B.ProductID$,2,ISNULL(MAX(B.DW_DM_PRODUCT_PRODUCT_CKSUM$),0) 
+FROM [NorthwindADR].ST_Orders_Details B 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_PRODUCT_PRODUCT C 
+	WHERE C.ProductID$=B.ProductID$) 
+GROUP BY B.ProductID$]
+2019-03-01 11:48:49,655-0800 INFO  - [INSERTDT:1551469729648:2:Product Product:ST_Orders_Details:0:[ProductID]:7:null] 0 rows inserted
+2019-03-01 11:48:49,657-0800 INFO  - Logging step LoadWarehouse [Product Product] for iteration 2, status Complete
+2019-03-01 11:48:49,658-0800 INFO  - Finished LoadWarehouse [Product Product]
+2019-03-01 11:48:49,661-0800 INFO  - Logging step LoadWarehouse [Orders Orders] for iteration 2, status Running
+2019-03-01 11:48:49,662-0800 INFO  - Starting LoadWarehouse [Orders Orders]
+2019-03-01 11:48:49,663-0800 INFO  - Probing staging table ST_Orders for DISTINCT to load Orders Orders
+2019-03-01 11:48:49,665-0800 INFO  - Probing staging table ST_SC_Orders for DISTINCT to load Orders Orders
+2019-03-01 11:48:49,667-0800 INFO  - Not distinct
+2019-03-01 11:48:49,670-0800 INFO  - Probing staging table ST_Orders_Details for DISTINCT to load Orders Orders
+2019-03-01 11:48:49,672-0800 INFO  - Not distinct
+2019-03-01 11:48:49,672-0800 INFO  - Updating surrogate keys for load id 2 in dimension table Orders Orders
+2019-03-01 11:48:49,673-0800 INFO  - Inserting new records into table Orders Orders from staging table ST_Orders
+2019-03-01 11:48:49,675-0800 INFO  - [QUERY:1551469729674:INSERT 
+INTO [NorthwindADR].DW_DM_ORDERS_ORDERS (CustomerID$,ST_Orders_CKSUM$,ShipCity$,ShipPostalCode$,LOAD_ID,OrderDate$,Freight$,ShipAddress$,UnitPrice$,ShipName$,Quantity$,ST_Orders_Details_CKSUM$,ShipRegion$,ProductID$,ShipCountry$,OrderID$,RequiredDate$,ST_SC_Orders_CKSUM$,ShippedDate$,Discount$,ShipperID$,EmployeeID$) 
+SELECT ST_SC_Orders.CustomerID$,ISNULL(B.DW_DM_ORDERS_ORDERS_CKSUM$,0),ST_SC_Orders.ShipCity$,ST_SC_Orders.ShipPostalCode$,2,ST_SC_Orders.OrderDate$,ST_SC_Orders.Freight$,ST_SC_Orders.ShipAddress$,ST_SC_Orders.UnitPrice$,ST_SC_Orders.ShipName$,ST_SC_Orders.Quantity$,ISNULL(0,0),ST_SC_Orders.ShipRegion$,ST_SC_Orders.ProductID$,ST_SC_Orders.ShipCountry$,B.OrderID$,ST_SC_Orders.RequiredDate$,ISNULL(ST_SC_Orders.DW_DM_ORDERS_ORDERS_CKSUM$,0),ST_SC_Orders.ShippedDate$,ST_SC_Orders.Discount$,ST_SC_Orders.ShipperID$,ST_SC_Orders.EmployeeID$ 
+FROM [NorthwindADR].ST_Orders B 
+LEFT OUTER JOIN 
+	(SELECT [NorthwindADR].ST_SC_Orders.OrderID$ OrderID$,MAX([NorthwindADR].ST_SC_Orders.CustomerID$) CustomerID$,MAX([NorthwindADR].ST_SC_Orders.EmployeeID$) EmployeeID$,MAX([NorthwindADR].ST_SC_Orders.OrderDate$) OrderDate$,MAX([NorthwindADR].ST_SC_Orders.RequiredDate$) RequiredDate$,MAX([NorthwindADR].ST_SC_Orders.ShippedDate$) ShippedDate$,MAX([NorthwindADR].ST_SC_Orders.ShipperID$) ShipperID$,MAX([NorthwindADR].ST_SC_Orders.Freight$) Freight$,MAX([NorthwindADR].ST_SC_Orders.ShipName$) ShipName$,MAX([NorthwindADR].ST_SC_Orders.ShipAddress$) ShipAddress$,MAX([NorthwindADR].ST_SC_Orders.ShipCity$) ShipCity$,MAX([NorthwindADR].ST_SC_Orders.ShipRegion$) ShipRegion$,MAX([NorthwindADR].ST_SC_Orders.ShipPostalCode$) ShipPostalCode$,MAX([NorthwindADR].ST_SC_Orders.ShipCountry$) ShipCountry$,MAX([NorthwindADR].ST_SC_Orders.ProductID$) ProductID$,MAX([NorthwindADR].ST_SC_Orders.UnitPrice$) UnitPrice$,MAX([NorthwindADR].ST_SC_Orders.Quantity$) Quantity$,MAX([NorthwindADR].ST_SC_Orders.Discount$) Discount$,MAX([NorthwindADR].ST_SC_Orders.DW_DM_ORDERS_ORDERS_CKSUM$) DW_DM_ORDERS_ORDERS_CKSUM$ 
+	FROM [NorthwindADR].ST_SC_Orders 
+	GROUP BY [NorthwindADR].ST_SC_Orders.OrderID$)ST_SC_Orders ON B.OrderID$=ST_SC_Orders.OrderID$ 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_ORDERS_ORDERS C 
+	WHERE C.OrderID$=B.OrderID$)]
+2019-03-01 11:48:49,691-0800 INFO  - [INSERTDT:1551469729674:2:Orders Orders:ST_Orders:0:[OrderID]:17:null] 0 rows inserted
+2019-03-01 11:48:49,693-0800 INFO  - Updating table DW_DM_ORDERS_ORDERS from staging table ST_SC_Orders
+2019-03-01 11:48:49,712-0800 INFO  - [UPDATEDT:1551469729693:2:Orders Orders:ST_SC_Orders:693:[RequiredDate, ShipName, Discount, ShippedDate, ShipCity, Quantity, ProductID, CustomerID, ShipPostalCode, ShipperID, OrderDate, ShipRegion, UnitPrice, ShipAddress, ShipCountry, EmployeeID, Freight]:19:null] 693 rows affected
+2019-03-01 11:48:49,713-0800 INFO  - Inserting new records into table Orders Orders from staging table ST_SC_Orders
+2019-03-01 11:48:49,714-0800 INFO  - [QUERY:1551469729714:INSERT 
+INTO [NorthwindADR].DW_DM_ORDERS_ORDERS (CustomerID$,ST_Orders_CKSUM$,ShipCity$,ShipPostalCode$,LOAD_ID,OrderDate$,Freight$,ShipAddress$,UnitPrice$,ShipName$,Quantity$,ST_Orders_Details_CKSUM$,ShipRegion$,ProductID$,ShipCountry$,OrderID$,RequiredDate$,ST_SC_Orders_CKSUM$,ShippedDate$,Discount$,ShipperID$,EmployeeID$) 
+SELECT MAX(B.CustomerID$),ISNULL(0,0),MAX(B.ShipCity$),MAX(B.ShipPostalCode$),2,MAX(B.OrderDate$),MAX(B.Freight$),MAX(B.ShipAddress$),MAX(B.UnitPrice$),MAX(B.ShipName$),MAX(B.Quantity$),ISNULL(0,0),MAX(B.ShipRegion$),MAX(B.ProductID$),MAX(B.ShipCountry$),B.OrderID$,MAX(B.RequiredDate$),ISNULL(MAX(B.DW_DM_ORDERS_ORDERS_CKSUM$),0),MAX(B.ShippedDate$),MAX(B.Discount$),MAX(B.ShipperID$),MAX(B.EmployeeID$) 
+FROM [NorthwindADR].ST_SC_Orders B 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_ORDERS_ORDERS C 
+	WHERE C.OrderID$=B.OrderID$) 
+GROUP BY B.OrderID$]
+2019-03-01 11:48:49,725-0800 INFO  - [INSERTDT:1551469729714:2:Orders Orders:ST_SC_Orders:0:[RequiredDate, ShipName, Discount, ShippedDate, ShipCity, Quantity, ProductID, CustomerID, ShipPostalCode, OrderID, ShipperID, OrderDate, ShipRegion, UnitPrice, ShipAddress, ShipCountry, EmployeeID, Freight]:11:null] 0 rows inserted
+2019-03-01 11:48:49,725-0800 INFO  - Inserting new records into table Orders Orders from staging table ST_Orders_Details
+2019-03-01 11:48:49,727-0800 INFO  - [QUERY:1551469729726:INSERT 
+INTO [NorthwindADR].DW_DM_ORDERS_ORDERS (CustomerID$,ST_Orders_CKSUM$,ShipCity$,ShipPostalCode$,LOAD_ID,OrderDate$,Freight$,ShipAddress$,UnitPrice$,ShipName$,Quantity$,ST_Orders_Details_CKSUM$,ShipRegion$,ProductID$,ShipCountry$,OrderID$,RequiredDate$,ST_SC_Orders_CKSUM$,ShippedDate$,Discount$,ShipperID$,EmployeeID$) 
+SELECT MAX(ST_SC_Orders.CustomerID$),ISNULL(0,0),MAX(ST_SC_Orders.ShipCity$),MAX(ST_SC_Orders.ShipPostalCode$),2,MAX(ST_SC_Orders.OrderDate$),MAX(ST_SC_Orders.Freight$),MAX(ST_SC_Orders.ShipAddress$),MAX(ST_SC_Orders.UnitPrice$),MAX(ST_SC_Orders.ShipName$),MAX(ST_SC_Orders.Quantity$),ISNULL(MAX(B.DW_DM_ORDERS_ORDERS_CKSUM$),0),MAX(ST_SC_Orders.ShipRegion$),MAX(ST_SC_Orders.ProductID$),MAX(ST_SC_Orders.ShipCountry$),B.OrderID$,MAX(ST_SC_Orders.RequiredDate$),ISNULL(MAX(ST_SC_Orders.DW_DM_ORDERS_ORDERS_CKSUM$),0),MAX(ST_SC_Orders.ShippedDate$),MAX(ST_SC_Orders.Discount$),MAX(ST_SC_Orders.ShipperID$),MAX(ST_SC_Orders.EmployeeID$) 
+FROM [NorthwindADR].ST_Orders_Details B 
+LEFT OUTER JOIN 
+	(SELECT [NorthwindADR].ST_SC_Orders.OrderID$ OrderID$,MAX([NorthwindADR].ST_SC_Orders.CustomerID$) CustomerID$,MAX([NorthwindADR].ST_SC_Orders.EmployeeID$) EmployeeID$,MAX([NorthwindADR].ST_SC_Orders.OrderDate$) OrderDate$,MAX([NorthwindADR].ST_SC_Orders.RequiredDate$) RequiredDate$,MAX([NorthwindADR].ST_SC_Orders.ShippedDate$) ShippedDate$,MAX([NorthwindADR].ST_SC_Orders.ShipperID$) ShipperID$,MAX([NorthwindADR].ST_SC_Orders.Freight$) Freight$,MAX([NorthwindADR].ST_SC_Orders.ShipName$) ShipName$,MAX([NorthwindADR].ST_SC_Orders.ShipAddress$) ShipAddress$,MAX([NorthwindADR].ST_SC_Orders.ShipCity$) ShipCity$,MAX([NorthwindADR].ST_SC_Orders.ShipRegion$) ShipRegion$,MAX([NorthwindADR].ST_SC_Orders.ShipPostalCode$) ShipPostalCode$,MAX([NorthwindADR].ST_SC_Orders.ShipCountry$) ShipCountry$,MAX([NorthwindADR].ST_SC_Orders.ProductID$) ProductID$,MAX([NorthwindADR].ST_SC_Orders.UnitPrice$) UnitPrice$,MAX([NorthwindADR].ST_SC_Orders.Quantity$) Quantity$,MAX([NorthwindADR].ST_SC_Orders.Discount$) Discount$,MAX([NorthwindADR].ST_SC_Orders.DW_DM_ORDERS_ORDERS_CKSUM$) DW_DM_ORDERS_ORDERS_CKSUM$ 
+	FROM [NorthwindADR].ST_SC_Orders 
+	GROUP BY [NorthwindADR].ST_SC_Orders.OrderID$)ST_SC_Orders ON B.OrderID$=ST_SC_Orders.OrderID$ 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_ORDERS_ORDERS C 
+	WHERE C.OrderID$=B.OrderID$) 
+GROUP BY B.OrderID$]
+2019-03-01 11:48:49,750-0800 INFO  - [INSERTDT:1551469729726:2:Orders Orders:ST_Orders_Details:0:[OrderID]:24:null] 0 rows inserted
+2019-03-01 11:48:49,753-0800 INFO  - Logging step LoadWarehouse [Orders Orders] for iteration 2, status Complete
+2019-03-01 11:48:49,755-0800 INFO  - Finished LoadWarehouse [Orders Orders]
+2019-03-01 11:48:49,756-0800 INFO  - Logging step LoadWarehouse [Customers Customers] for iteration 2, status Running
+2019-03-01 11:48:49,758-0800 INFO  - Starting LoadWarehouse [Customers Customers]
+2019-03-01 11:48:49,758-0800 INFO  - Probing staging table ST_Orders for DISTINCT to load Customers Customers
+2019-03-01 11:48:49,759-0800 INFO  - Not distinct
+2019-03-01 11:48:49,760-0800 INFO  - Unable to load dimension table [Customers Customers] from staging table [ST_SC_Orders]: natural keys not available at level Customers
+2019-03-01 11:48:49,760-0800 INFO  - Unable to load dimension table [Customers Customers] from staging table [ST_Orders_Details]: natural keys not available at level Customers
+2019-03-01 11:48:49,760-0800 INFO  - Updating surrogate keys for load id 2 in dimension table Customers Customers
+2019-03-01 11:48:49,760-0800 INFO  - Inserting new records into table Customers Customers from staging table ST_Orders
+2019-03-01 11:48:49,760-0800 INFO  - [QUERY:1551469729760:INSERT 
+INTO [NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS (CustomerID$,ST_Orders_CKSUM$,LOAD_ID) 
+SELECT B.CustomerID$,ISNULL(MAX(B.DW_DM_CUSTOMERS_CUSTOMERS_CKSUM$),0),2 
+FROM [NorthwindADR].ST_Orders B 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS C 
+	WHERE C.CustomerID$=B.CustomerID$) 
+GROUP BY B.CustomerID$]
+2019-03-01 11:48:49,769-0800 INFO  - [INSERTDT:1551469729760:2:Customers Customers:ST_Orders:0:[CustomerID]:9:null] 0 rows inserted
+2019-03-01 11:48:49,773-0800 INFO  - Logging step LoadWarehouse [Customers Customers] for iteration 2, status Complete
+2019-03-01 11:48:49,775-0800 INFO  - Finished LoadWarehouse [Customers Customers]
+2019-03-01 11:48:49,777-0800 INFO  - Logging step LoadWarehouse [Employees Employees] for iteration 2, status Running
+2019-03-01 11:48:49,780-0800 INFO  - Starting LoadWarehouse [Employees Employees]
+2019-03-01 11:48:49,781-0800 INFO  - Probing staging table ST_Orders for DISTINCT to load Employees Employees
+2019-03-01 11:48:49,782-0800 INFO  - Not distinct
+2019-03-01 11:48:49,783-0800 INFO  - Unable to load dimension table [Employees Employees] from staging table [ST_SC_Orders]: natural keys not available at level Employees
+2019-03-01 11:48:49,783-0800 INFO  - Unable to load dimension table [Employees Employees] from staging table [ST_Orders_Details]: natural keys not available at level Employees
+2019-03-01 11:48:49,783-0800 INFO  - Updating surrogate keys for load id 2 in dimension table Employees Employees
+2019-03-01 11:48:49,783-0800 INFO  - Inserting new records into table Employees Employees from staging table ST_Orders
+2019-03-01 11:48:49,783-0800 INFO  - [QUERY:1551469729783:INSERT 
+INTO [NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES (ST_Orders_CKSUM$,LOAD_ID,EmployeeID$) 
+SELECT ISNULL(MAX(B.DW_DM_EMPLOYEES_EMPLOYEES_CKSUM$),0),2,B.EmployeeID$ 
+FROM [NorthwindADR].ST_Orders B 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES C 
+	WHERE C.EmployeeID$=B.EmployeeID$) 
+GROUP BY B.EmployeeID$]
+2019-03-01 11:48:49,789-0800 INFO  - [INSERTDT:1551469729783:2:Employees Employees:ST_Orders:0:[EmployeeID]:6:null] 0 rows inserted
+2019-03-01 11:48:49,791-0800 INFO  - Logging step LoadWarehouse [Employees Employees] for iteration 2, status Complete
+2019-03-01 11:48:49,792-0800 INFO  - Finished LoadWarehouse [Employees Employees]
+2019-03-01 11:48:49,794-0800 INFO  - Logging step LoadWarehouse [Shipers Shippers] for iteration 2, status Running
+2019-03-01 11:48:49,796-0800 INFO  - Starting LoadWarehouse [Shipers Shippers]
+2019-03-01 11:48:49,796-0800 INFO  - Unable to load dimension table [Shipers Shippers] from staging table [ST_SC_Orders]: natural keys not available at level Shippers
+2019-03-01 11:48:49,796-0800 INFO  - Unable to load dimension table [Shipers Shippers] from staging table [ST_Orders_Details]: natural keys not available at level Shippers
+2019-03-01 11:48:49,796-0800 INFO  - No matching staging tables available for loading dimension table Shipers Shippers
+2019-03-01 11:48:49,796-0800 INFO  - Logging step LoadWarehouse [Shipers Shippers] for iteration 2, status Complete
+2019-03-01 11:48:49,797-0800 INFO  - Finished LoadWarehouse [Shipers Shippers]
+2019-03-01 11:48:49,813-0800 INFO  - Logging step LoadWarehouse [Customers Day Employees Orders Fact] for iteration 2, status Running
+2019-03-01 11:48:49,815-0800 INFO  - Starting LoadWarehouse [Customers Day Employees Orders Fact]
+2019-03-01 11:48:49,815-0800 INFO  - [QUERY:
+SELECT COUNT_BIG(*) 
+FROM 
+	(SELECT COUNT_BIG(*) CNT 
+	FROM [NorthwindADR].ST_Orders 
+	GROUP BY OrderID$,CustomerID$,EmployeeID$ 
+	HAVING COUNT_BIG(*)>1) AS T]
+2019-03-01 11:48:49,818-0800 INFO  - Deleting any records from table Customers Day Employees Orders Fact with same load ID
+2019-03-01 11:48:49,818-0800 INFO  - [QUERY:1551469729818:DELETE 
+FROM [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS 
+WHERE LOAD_ID=2]
+2019-03-01 11:48:49,821-0800 INFO  - [DELMT:1551469729818:DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS:0]
+2019-03-01 11:48:49,826-0800 INFO  - Inserting new records into table Customers Day Employees Orders Fact from staging table ST_Orders
+2019-03-01 11:48:49,827-0800 INFO  - [QUERY:1551469729826:INSERT 
+INTO [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS ( DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$CustomerID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$EmployeeID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Orders$OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.EmployeeID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.ShipVia$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Freight$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$OrderDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$RequiredDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$ShippedDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$Customers120094747$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$Employees200464383$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Orders$Orders831130011$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$Week_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$Quarter_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$Month_ID$, LOAD_ID )  
+SELECT B.CustomerID$,B.EmployeeID$,B.OrderID$,43518,B.OrderID$,B.EmployeeID$,B.ShipVia$,B.Freight$,B.OrderDate_Day_ID$,B.RequiredDate_Day_ID$,B.ShippedDate_Day_ID$,[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.Customers120094747$,[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.Employees200464383$,[NorthwindADR].DW_DM_ORDERS_ORDERS.Orders831130011$,dbo.DW_DM_TIME_DAY.Week_ID$,dbo.DW_DM_TIME_DAY.Quarter_ID$,dbo.DW_DM_TIME_DAY.Month_ID$,2 
+FROM [NorthwindADR].ST_Orders B 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS ON  B.CustomerID$=[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.CustomerID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES ON  B.EmployeeID$=[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.EmployeeID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_ORDERS_ORDERS ON  B.OrderID$=[NorthwindADR].DW_DM_ORDERS_ORDERS.OrderID$ 
+INNER JOIN dbo.DW_DM_TIME_DAY ON  43518=dbo.DW_DM_TIME_DAY.Day_ID$]
+2019-03-01 11:48:49,875-0800 INFO  - [INSERTF:1551469729826:2:Customers Day Employees Orders Fact:ST_Orders:830:[CustomerID, ShipVia, EmployeeID, OrderID, Freight]:49:null] 830 rows inserted
+2019-03-01 11:48:49,898-0800 INFO  - Logging step LoadWarehouse [Customers Day Employees Orders Fact] for iteration 2, status Complete
+2019-03-01 11:48:49,899-0800 INFO  - Finished LoadWarehouse [Customers Day Employees Orders Fact]
+2019-03-01 11:48:49,901-0800 INFO  - Logging step LoadWarehouse [Customers Day Employees Orders Product Shippers Fact] for iteration 2, status Running
+2019-03-01 11:48:49,902-0800 INFO  - Starting LoadWarehouse [Customers Day Employees Orders Product Shippers Fact]
+2019-03-01 11:48:49,902-0800 INFO  - [QUERY:
+SELECT COUNT_BIG(*) 
+FROM 
+	(SELECT COUNT_BIG(*) CNT 
+	FROM [NorthwindADR].ST_Orders_Details 
+	GROUP BY OrderID$,ProductID$ 
+	HAVING COUNT_BIG(*)>1) AS T]
+2019-03-01 11:48:49,906-0800 INFO  - Deleting any records from table Customers Day Employees Orders Product Shippers Fact with same load ID
+2019-03-01 11:48:49,906-0800 INFO  - [QUERY:1551469729906:DELETE 
+FROM [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS 
+WHERE LOAD_ID=2]
+2019-03-01 11:48:49,912-0800 INFO  - [DELMT:1551469729906:DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS:0]
+2019-03-01 11:48:49,916-0800 INFO  - Probing staging table Customers Day Employees Orders Fact for DISTINCT for level key: [Orders.OrderID]
+2019-03-01 11:48:49,927-0800 INFO  - Inserting new records into table Customers Day Employees Orders Product Shippers Fact from staging table ST_Orders_Details
+2019-03-01 11:48:49,929-0800 INFO  - [QUERY:1551469729928:INSERT 
+INTO [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS ( DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Product$ProductID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Orders$OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.ProductID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.UnitPrice$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Quantity$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Discount$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Product$Product529848426$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Orders$Orders831130011$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Customers$Customers120094747$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Employees$Employees200464383$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Week_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Quarter_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Month_ID$,Customers$CustomerID$,Employees$EmployeeID$,Time$ShippedDate_Day_ID$,Time$RequiredDate_Day_ID$,Time$OrderDate_Day_ID$, LOAD_ID )  
+SELECT B.ProductID$,B.OrderID$,43518,B.OrderID$,B.ProductID$,B.UnitPrice$,B.Quantity$,B.Discount$,[NorthwindADR].DW_DM_PRODUCT_PRODUCT.Product529848426$,[NorthwindADR].DW_DM_ORDERS_ORDERS.Orders831130011$,[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.Customers120094747$,[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.Employees200464383$,dbo.DW_DM_TIME_DAY.Week_ID$,dbo.DW_DM_TIME_DAY.Quarter_ID$,dbo.DW_DM_TIME_DAY.Month_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$CustomerID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$EmployeeID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$ShippedDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$RequiredDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Time$OrderDate_Day_ID$,2 
+FROM [NorthwindADR].ST_Orders_Details B 
+LEFT OUTER JOIN [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS ON B.OrderID$=DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Orders$OrderID$ AND DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.LOAD_ID=2 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_PRODUCT_PRODUCT ON  B.ProductID$=[NorthwindADR].DW_DM_PRODUCT_PRODUCT.ProductID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_ORDERS_ORDERS ON  B.OrderID$=[NorthwindADR].DW_DM_ORDERS_ORDERS.OrderID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS ON  DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$CustomerID$=[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.CustomerID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES ON  DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$EmployeeID$=[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.EmployeeID$ 
+INNER JOIN dbo.DW_DM_TIME_DAY ON  43518=dbo.DW_DM_TIME_DAY.Day_ID$]
+2019-03-01 11:48:50,153-0800 INFO  - [INSERTF:1551469729928:2:Customers Day Employees Orders Product Shippers Fact:ST_Orders_Details:2155:[UnitPrice, Discount, Quantity, ProductID, OrderID]:225:null] 2155 rows inserted
+2019-03-01 11:48:50,154-0800 INFO  - [QUERY:
+SELECT COUNT_BIG(*) 
+FROM 
+	(SELECT COUNT_BIG(*) CNT 
+	FROM [NorthwindADR].ST_SC_Orders 
+	GROUP BY OrderID$ 
+	HAVING COUNT_BIG(*)>1) AS T]
+2019-03-01 11:48:50,157-0800 WARN  - The grain key for source ST_SC_Orders (i.e. the combination of the level keys for each level in its grain) is not unique. This can result in cartesian joins.
+2019-03-01 11:48:50,163-0800 INFO  - [QUERY:
+SELECT COUNT(1) 
+FROM [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS 
+WHERE LOAD_ID = 2]
+2019-03-01 11:48:50,180-0800 INFO  - Updating records in table Customers Day Employees Orders Product Shippers Fact from staging table ST_SC_Orders
+2019-03-01 11:48:50,183-0800 INFO  - [QUERY:1551469730181:UPDATE [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS SET Time$OrderDate_Day_ID$=B.OrderDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Freight$=B.Freight$,Time$ShippedDate_Day_ID$=B.ShippedDate_Day_ID$,Time$RequiredDate_Day_ID$=B.RequiredDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Orders$OrderID$=B.OrderID$ 
+FROM [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS A 
+INNER JOIN [NorthwindADR].ST_SC_Orders B ON A.Time$Day_ID$=43518 AND A.OrderID$=B.OrderID$ AND A.ShipperID$=B.ShipperID$ AND A.EmployeeID$=B.EmployeeID$ 
+WHERE A.LOAD_ID=2]
+2019-03-01 11:48:50,225-0800 INFO  - [UPDATEF:1551469730181:2:Customers Day Employees Orders Product Shippers Fact:ST_SC_Orders:0:[ShippedDate Day ID, OrderDate Day ID, RequiredDate Day ID, OrderID, Freight]:43:null] 0 rows updated
+2019-03-01 11:48:50,227-0800 INFO  - Probing staging table Customers Day Employees Orders Fact for DISTINCT for level key: [Orders.OrderID]
+2019-03-01 11:48:50,232-0800 INFO  - Inserting new records into table Customers Day Employees Orders Product Shippers Fact from staging table ST_SC_Orders
+2019-03-01 11:48:50,234-0800 INFO  - [QUERY:1551469730232:INSERT 
+INTO [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS ( DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Orders$OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.OrderID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.EmployeeID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Freight$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$OrderDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$RequiredDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$ShippedDate_Day_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.ShipperID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Orders$Orders831130011$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Customers$Customers120094747$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Employees$Employees200464383$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Week_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Quarter_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS.Time$Month_ID$,Customers$CustomerID$,Employees$EmployeeID$, LOAD_ID )  
+SELECT B.OrderID$,43518,B.OrderID$,B.EmployeeID$,B.Freight$,B.OrderDate_Day_ID$,B.RequiredDate_Day_ID$,B.ShippedDate_Day_ID$,B.ShipperID$,[NorthwindADR].DW_DM_ORDERS_ORDERS.Orders831130011$,[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.Customers120094747$,[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.Employees200464383$,dbo.DW_DM_TIME_DAY.Week_ID$,dbo.DW_DM_TIME_DAY.Quarter_ID$,dbo.DW_DM_TIME_DAY.Month_ID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$CustomerID$,DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$EmployeeID$,2 
+FROM [NorthwindADR].ST_SC_Orders B 
+LEFT OUTER JOIN [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS ON B.OrderID$=DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Orders$OrderID$ AND DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.LOAD_ID=2 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_ORDERS_ORDERS ON  B.OrderID$=[NorthwindADR].DW_DM_ORDERS_ORDERS.OrderID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS ON  DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Customers$CustomerID$=[NorthwindADR].DW_DM_CUSTOMERS_CUSTOMERS.CustomerID$ 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES ON  DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS.Employees$EmployeeID$=[NorthwindADR].DW_DM_EMPLOYEES_EMPLOYEES.EmployeeID$ 
+INNER JOIN dbo.DW_DM_TIME_DAY ON  43518=dbo.DW_DM_TIME_DAY.Day_ID$ 
+WHERE NOT EXISTS 
+	(SELECT * 
+	FROM [NorthwindADR].DW_SF_CUSTOMERS_DAY_EMPLOYEES_ORDERS_PRODUCT_SHIPPERS A  
+	WHERE A.Time$Day_ID$=43518 AND A.OrderID$=B.OrderID$ AND A.ShipperID$=B.ShipperID$ AND A.EmployeeID$=B.EmployeeID$ AND A.LOAD_ID=2 )]
+2019-03-01 11:48:50,477-0800 INFO  - [INSERTF:1551469730232:2:Customers Day Employees Orders Product Shippers Fact:ST_SC_Orders:2155:[OrderID, EmployeeID, ShipperID, Freight]:245:null] 2155 rows inserted
+2019-03-01 11:48:50,500-0800 INFO  - Logging step LoadWarehouse [Customers Day Employees Orders Product Shippers Fact] for iteration 2, status Complete
+2019-03-01 11:48:50,502-0800 INFO  - Finished LoadWarehouse [Customers Day Employees Orders Product Shippers Fact]
+2019-03-01 11:48:50,502-0800 INFO  - Logging step LoadWarehouse [ACORN] for iteration 2, status Complete
+2019-03-01 11:48:50,504-0800 INFO  - Finished LoadWarehouse [ACORN]
+2019-03-01 11:48:50,504-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadWarehouse
+2019-03-01 11:48:50,504-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: PersistAggregates
+2019-03-01 11:48:50,505-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ErrorContinuePoint
+2019-03-01 11:48:50,506-0800 INFO  - Logging step ExecuteScriptGroup [ACORN] for iteration 2, status Running
+2019-03-01 11:48:50,507-0800 INFO  - Starting ExecuteScriptGroup [ACORN]
+2019-03-01 11:48:50,507-0800 WARN  - Empty script group: There are no scripts defined in script group ACORN
+2019-03-01 11:48:50,507-0800 INFO  - Logging step ExecuteScriptGroup [ACORN] for iteration 2, status Complete
+2019-03-01 11:48:50,509-0800 INFO  - Finished ExecuteScriptGroup [ACORN]
+2019-03-01 11:48:50,509-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ExecuteScriptGroup
+2019-03-01 11:48:50,509-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ErrorContinuePoint
+2019-03-01 11:48:50,509-0800 INFO  - Logging step LoadMarker [ACORN] for iteration 2, status Complete
+2019-03-01 11:48:50,511-0800 INFO  - Finished LoadMarker [ACORN]
+2019-03-01 11:48:50,511-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadMarker
+2019-03-01 11:48:50,512-0800 INFO  - Executing command Copy: Copy [NorthwindADR]\repository_dev.xml [NorthwindADR]\repository.xml
+2019-03-01 11:48:50,532-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2019-03-01 11:48:50,533-0800 INFO  - Executing command Exec: Touch [NorthwindADR]\repository.xml
+2019-03-01 11:48:50,534-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Touch
+2019-03-01 11:48:50,535-0800 INFO  - Executing command Del: Del [NorthwindADR]\publish.lock
+2019-03-01 11:48:50,537-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Del
+2019-03-01 11:48:50,537-0800 INFO  - Executing command Del: Del [NorthwindADR]\load.lock
+2019-03-01 11:48:50,539-0800 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Del
+2017-09-13 13:11:25,465-0700 WARN  - No URLs available from configuration property: birst.application.avatar.urls
+2017-09-13 13:11:25,521-0700 WARN  - No URLs available from configuration property: birst.application.avatar.urls
+2017-09-13 13:11:25,525-0700 WARN  - No URLs available from configuration property: birst.application.avatar.urls
+2017-09-13 13:11:25,908-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: MetricTags
+2017-09-13 13:11:25,908-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: SetPerformanceTracking
+2017-09-13 13:11:25,909-0700 INFO  - Executing command Copy: Copy [NorthwindADR]\..\load.lock [NorthwindADR]
+2017-09-13 13:11:25,920-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2017-09-13 13:11:25,923-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: CheckIn
+2017-09-13 13:11:26,855-0700 INFO  - JDBC Driver information: Oracle JDBC driver, 11.2.0.4.0, JDBC Version: 11.2
+2017-09-13 13:11:26,855-0700 INFO  - Database information: Oracle, Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+2017-09-13 13:11:26,967-0700 WARN  - Failed to determine if feature SINGULAR_MONGO_QUERY_CACHE is enabled. Proceeding as if the feature is disabled. retrofit.RetrofitError: No URLs available from configuration property: birst.application.avatar.urls
+2017-09-13 13:11:26,978-0700 INFO  - Variable: LoadNumber = 1
+2017-09-13 13:11:26,978-0700 INFO  - Variable: LoadInitiatedTime = 9/13/2017 1:11 PM
+2017-09-13 13:11:26,978-0700 INFO  - Variable: SCHEMA = [NorthwindADR]
+2017-09-13 13:11:26,978-0700 INFO  - Variable: LoadDateSFDC = 2017-09-13T00:00:00-07:00
+2017-09-13 13:11:26,978-0700 INFO  - Variable: LoadDate = 09/13/2017
+2017-09-13 13:11:31,019-0700 INFO  - Elapsed Time = 0 minutes, 5 seconds for: Repository
+2017-09-13 13:11:31,853-0700 INFO  - Set repository variable 'LoadDate' to value '09/13/2017'
+2017-09-13 13:11:31,854-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: SetVariable
+2017-09-13 13:11:31,856-0700 INFO  - Set repository variable 'USER' to value 'atc@birst.com'
+2017-09-13 13:11:31,856-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: SetVariable
+2017-09-13 13:11:31,857-0700 INFO  - Clearing ETL history for 1
+2017-09-13 13:11:31,858-0700 INFO  - Deleting previous data from TXN_COMMAND_HISTORY
+2017-09-13 13:11:31,890-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ResetETLRun
+2017-09-13 13:11:31,892-0700 INFO  - Logging step LoadMarker [ACORN] for iteration 1, status Running
+2017-09-13 13:11:31,914-0700 INFO  - Starting LoadMarker [ACORN]
+2017-09-13 13:11:31,914-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadMarker
+2017-09-13 13:11:31,931-0700 INFO  - Logging step GenerateSchema for iteration 1, status Running
+2017-09-13 13:11:31,933-0700 INFO  - Starting GenerateSchema
+2017-09-13 13:11:33,861-0700 INFO  - Deleting previous data from TXN_OBJECT_HISTORY
+2017-09-13 13:11:40,508-0700 INFO  - Logging step GenerateSchema for iteration 1, status Complete
+2017-09-13 13:11:40,511-0700 INFO  - Finished GenerateSchema
+2017-09-13 13:11:40,511-0700 INFO  - Elapsed Time = 0 minutes, 8 seconds for: GenerateSchema
+2017-09-13 13:11:40,530-0700 INFO  - Logging step LoadStaging [ACORN] for iteration 1, status Running
+2017-09-13 13:11:40,532-0700 INFO  - Starting LoadStaging [ACORN]
+2017-09-13 13:11:40,535-0700 INFO  - Logging step LoadStaging [ST_Cat1] for iteration 1, status Running
+2017-09-13 13:11:40,536-0700 INFO  - Starting LoadStaging [ST_Cat1]
+2017-09-13 13:11:42,159-0700 INFO  - Processing source file: Cat1.txt (Cat1.txt)
+2017-09-13 13:11:42,202-0700 INFO  - [0/7] Active (threads): 0, Completed: 0, Task: 0, Work Queue: 0/100, Write Queue: 0/20000
+2017-09-13 13:11:42,203-0700 INFO  - Processing input records, number of threads: 7, work queue size: 100, write queue size: 20000
+2017-09-13 13:11:42,216-0700 INFO  - Read 8 lines, wrote 8 lines
+2017-09-13 13:11:42,216-0700 INFO  - Successfully preprocessed source file: Cat1.txt
+2017-09-13 13:11:42,291-0700 INFO  - Successfully loaded ST_Cat1 : Rows inserted=8
+2017-09-13 13:11:43,088-0700 INFO  - Logging step LoadStaging [ST_Cat1] for iteration 1, status Complete
+2017-09-13 13:11:43,092-0700 INFO  - Finished LoadStaging [ST_Cat1]
+2017-09-13 13:11:43,092-0700 INFO  - Logging step LoadStaging [ACORN] for iteration 1, status Complete
+2017-09-13 13:11:43,094-0700 INFO  - Finished LoadStaging [ACORN]
+2017-09-13 13:11:43,094-0700 INFO  - Elapsed Time = 0 minutes, 2 seconds for: LoadStaging
+2017-09-13 13:11:43,097-0700 INFO  - Executing command Copy: Copy [NorthwindADR]\..\publish.lock [NorthwindADR]
+2017-09-13 13:11:43,099-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2017-09-13 13:11:43,107-0700 INFO  - Logging step LoadWarehouse [ACORN] for iteration 1, status Running
+2017-09-13 13:11:43,109-0700 INFO  - Starting LoadWarehouse [ACORN]
+2017-09-13 13:11:43,276-0700 INFO  - Order of loading dimension tables: [Cat1 Cat1]
+2017-09-13 13:11:43,278-0700 INFO  - Logging step LoadWarehouse [Cat1 Cat1] for iteration 1, status Running
+2017-09-13 13:11:43,279-0700 INFO  - Starting LoadWarehouse [Cat1 Cat1]
+2017-09-13 13:11:43,282-0700 INFO  - Probing staging table ST_Cat1 for DISTINCT to load Cat1 Cat1
+2017-09-13 13:11:43,288-0700 INFO  - Updating surrogate keys for load id 1 in dimension table Cat1 Cat1
+2017-09-13 13:11:43,383-0700 INFO  - Updating table DW_DM_CAT1_CAT1 from staging table ST_Cat1
+2017-09-13 13:11:43,388-0700 INFO  - [UPDATEDT:1505333503383:1:Cat1 Cat1:ST_Cat1:0:[Description, CategoryName]:5:null] 0 rows affected
+2017-09-13 13:11:43,389-0700 INFO  - Inserting new records into table Cat1 Cat1 from staging table ST_Cat1
+2017-09-13 13:11:43,393-0700 INFO  - [QUERY:1505333503392:INSERT 
+INTO [NorthwindADR].DW_DM_CAT1_CAT1 (Description$,LOAD_ID,CategoryName$,CategoryID2$,ST_CAT1_CKSUM$,CategoryID$,Cat11451098915$) 
+SELECT S.*,[NorthwindADR].SEQUENCE_1505333503390.nextval 
+FROM 
+	(SELECT B.Description$,1,B.CategoryName$,B.CategoryID2$,NVL(B.DW_DM_CAT1_CAT1_CKSUM$,0),B.CategoryID$ 
+	FROM [NorthwindADR].ST_Cat1 B 
+	WHERE NOT EXISTS 
+		(SELECT * 
+		FROM [NorthwindADR].DW_DM_CAT1_CAT1 C 
+		WHERE C.CategoryID$=B.CategoryID$ AND C.CategoryID2$=B.CategoryID2$)) S]
+2017-09-13 13:11:43,400-0700 INFO  - [INSERTDT:1505333503392:1:Cat1 Cat1:ST_Cat1:8:[Description, CategoryName, CategoryID, CategoryID2]:8:null] 8 rows inserted
+2017-09-13 13:11:43,495-0700 INFO  - Logging step LoadWarehouse [Cat1 Cat1] for iteration 1, status Complete
+2017-09-13 13:11:43,496-0700 INFO  - Finished LoadWarehouse [Cat1 Cat1]
+2017-09-13 13:11:43,520-0700 INFO  - Logging step LoadWarehouse [Cat1 Day Fact] for iteration 1, status Running
+2017-09-13 13:11:43,521-0700 INFO  - Starting LoadWarehouse [Cat1 Day Fact]
+2017-09-13 13:11:43,523-0700 INFO  - Deleting any records from table Cat1 Day Fact with same load ID
+2017-09-13 13:11:43,523-0700 INFO  - [QUERY:1505333503523:DELETE 
+FROM [NorthwindADR].DW_SF_CAT1_DAY 
+WHERE LOAD_ID=1]
+2017-09-13 13:11:43,524-0700 INFO  - [DELMT:1505333503523:DW_SF_CAT1_DAY:0]
+2017-09-13 13:11:43,528-0700 INFO  - Inserting new records into table Cat1 Day Fact from staging table ST_Cat1
+2017-09-13 13:11:43,529-0700 INFO  - [QUERY:1505333503528:INSERT 
+INTO [NorthwindADR].DW_SF_CAT1_DAY ( DW_SF_CAT1_DAY.Cat1$CategoryID$,DW_SF_CAT1_DAY.Cat1$CategoryID2$,DW_SF_CAT1_DAY.Time$Day_ID$,DW_SF_CAT1_DAY.CategoryID$,DW_SF_CAT1_DAY.CategoryID2$,DW_SF_CAT1_DAY.CategoryName$,DW_SF_CAT1_DAY.Cat1$Cat11451098915$,DW_SF_CAT1_DAY.Time$Week_ID$,DW_SF_CAT1_DAY.Time$Quarter_ID$,DW_SF_CAT1_DAY.Time$Month_ID$, LOAD_ID )  
+SELECT B.CategoryID$,B.CategoryID2$,42984,B.CategoryID$,B.CategoryID2$,B.CategoryName$,[NorthwindADR].DW_DM_CAT1_CAT1.Cat11451098915$,dbo.DW_DM_TIME_DAY.Week_ID$,dbo.DW_DM_TIME_DAY.Quarter_ID$,dbo.DW_DM_TIME_DAY.Month_ID$,1 
+FROM [NorthwindADR].ST_Cat1 B 
+LEFT OUTER JOIN [NorthwindADR].DW_DM_CAT1_CAT1 ON  B.CategoryID$=[NorthwindADR].DW_DM_CAT1_CAT1.CategoryID$ AND B.CategoryID2$=[NorthwindADR].DW_DM_CAT1_CAT1.CategoryID2$ 
+INNER JOIN dbo.DW_DM_TIME_DAY ON  42984=dbo.DW_DM_TIME_DAY.Day_ID$]
+2017-09-13 13:11:43,538-0700 INFO  - [INSERTF:1505333503528:1:Cat1 Day Fact:ST_Cat1:8:[CategoryName, CategoryID, CategoryID2]:10:null] 8 rows inserted
+2017-09-13 13:11:43,735-0700 INFO  - Logging step LoadWarehouse [Cat1 Day Fact] for iteration 1, status Complete
+2017-09-13 13:11:43,736-0700 INFO  - Finished LoadWarehouse [Cat1 Day Fact]
+2017-09-13 13:11:43,736-0700 INFO  - Logging step LoadWarehouse [ACORN] for iteration 1, status Complete
+2017-09-13 13:11:43,737-0700 INFO  - Finished LoadWarehouse [ACORN]
+2017-09-13 13:11:43,738-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadWarehouse
+2017-09-13 13:11:43,739-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: PersistAggregates
+2017-09-13 13:11:43,740-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ErrorContinuePoint
+2017-09-13 13:11:43,741-0700 INFO  - Logging step ExecuteScriptGroup [ACORN] for iteration 1, status Running
+2017-09-13 13:11:43,761-0700 INFO  - Starting ExecuteScriptGroup [ACORN]
+2017-09-13 13:11:43,761-0700 WARN  - Empty script group: There are no scripts defined in script group ACORN
+2017-09-13 13:11:43,761-0700 INFO  - Logging step ExecuteScriptGroup [ACORN] for iteration 1, status Complete
+2017-09-13 13:11:43,762-0700 INFO  - Finished ExecuteScriptGroup [ACORN]
+2017-09-13 13:11:43,762-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ExecuteScriptGroup
+2017-09-13 13:11:43,763-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: ErrorContinuePoint
+2017-09-13 13:11:43,763-0700 INFO  - Logging step LoadMarker [ACORN] for iteration 1, status Complete
+2017-09-13 13:11:43,764-0700 INFO  - Finished LoadMarker [ACORN]
+2017-09-13 13:11:43,764-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: LoadMarker
+2017-09-13 13:11:43,765-0700 INFO  - Executing command Copy: Copy [NorthwindADR]\repository_dev.xml [NorthwindADR]\repository.xml
+2017-09-13 13:11:43,785-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Copy
+2017-09-13 13:11:43,786-0700 INFO  - Executing command Exec: Touch [NorthwindADR]\repository.xml
+2017-09-13 13:11:43,786-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Touch
+2017-09-13 13:11:43,787-0700 INFO  - Executing command Del: Del [NorthwindADR]\publish.lock
+2017-09-13 13:11:43,787-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Del
+2017-09-13 13:11:43,788-0700 INFO  - Executing command Del: Del [NorthwindADR]\load.lock
+2017-09-13 13:11:43,788-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Del
+2017-09-13 13:11:43,786-0700 INFO  - Elapsed Time = 0 minutes, 0 seconds for: Touch 

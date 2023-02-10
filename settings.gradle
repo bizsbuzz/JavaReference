@@ -1,0 +1,6 @@
+rootProject.name = 'JavaReference'
+include 'Java.General'
+include 'JUnit.HealthyCoderApp'
+include 'Mockito.HappyHotelApp'
+include 'TestNG.Sample'
+

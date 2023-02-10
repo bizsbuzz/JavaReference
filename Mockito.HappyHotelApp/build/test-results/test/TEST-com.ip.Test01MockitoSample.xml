@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ip.Test01MockitoSample" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-09T22:13:43" hostname="USRONIPRASLA02" time="0.352">
+  <properties/>
+  <testcase name="should_CalculateCorrectPrice_When_CorrectInput()" classname="com.ip.Test01MockitoSample" time="0.352"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
