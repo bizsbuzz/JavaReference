@@ -1,4 +1,5 @@
 Chapter 1
+    a. This should create merge conflict
 Chapter 2
     a. This is the start of chapter 2 on main branch
 Chapter 3
