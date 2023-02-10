@@ -18,6 +18,8 @@ Chapter 3
     e. This change is critical 1.3
     h. This is absoultely needed 1.5
     g. 1.6 change not needed
+    h. 1.7 is needed
+    i. Let's add this change to previous commit using amend
 
 Chapter 4
 Chapter 5
