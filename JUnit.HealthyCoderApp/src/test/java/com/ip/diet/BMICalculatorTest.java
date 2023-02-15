@@ -1,11 +1,12 @@
-package com.ip;
+package com.ip.diet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ip.diet.BMICalculator;
+import com.ip.diet.Coder;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 

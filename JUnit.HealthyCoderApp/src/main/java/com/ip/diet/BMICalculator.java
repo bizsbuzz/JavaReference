@@ -1,4 +1,4 @@
-package com.ip;
+package com.ip.diet;
 
 import java.util.Comparator;
 import java.util.List;

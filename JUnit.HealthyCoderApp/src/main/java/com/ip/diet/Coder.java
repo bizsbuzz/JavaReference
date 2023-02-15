@@ -1,4 +1,4 @@
-package com.ip;
+package com.ip.diet;
 
 public class Coder {
 	

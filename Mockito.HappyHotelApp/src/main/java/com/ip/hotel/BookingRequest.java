@@ -1,4 +1,4 @@
-package com.ip;
+package com.ip.hotel;
 
 import java.time.LocalDate;
 

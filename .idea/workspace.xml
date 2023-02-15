@@ -5,20 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e101d1-0254-4937-892d-251d6f41cf78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Java.General/JavaReference.Java.General.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com.ip/Test01MockitoSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com.ip/Test01MockitoSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/classes/TestExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/classes/TestExample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/test-results/test/TEST-TestExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/test-results/test/TEST-TestExample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/BMICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/Coder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/Coder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/DietPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/DietPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/DietPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/DietPlanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/classes/com.ip.Test01MockitoSample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/packages/com.ip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/TEST-com.ip.Test01MockitoSample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com.ip/Test01MockitoSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com/ip/hotel/Test01MockitoSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.Sample/src/test/java/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/src/test/java/TestExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -71,31 +87,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Git/Java/JavaReference/Mockito.HappyHotelApp/src/test/java/com.ip&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/Git/Java/JavaReference/Mockito.HappyHotelApp/src/main/java/com/ip/realestate",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\main\java\com\ip\realestate" />
       <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\test\java\com.ip" />
       <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\main\java\com\ip" />
       <recent name="E:\Git\Java\JavaReference\JUnit.HealthyCoderApp\src\test\java" />
       <recent name="E:\Git\Java\JavaReference\Java.General\src\main\resources" />
-      <recent name="E:\Git\Java\JavaReference\Java.General\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ip" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ip.realestate" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestExample">
+  <component name="RunManager" selected="Gradle.GeneratorCustomParamsTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ip.general.Main" />
       <module name="JavaReference.Java.General.main" />
@@ -109,20 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ip.general.Playground" />
-      <module name="JavaReference.Java.General.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ip.general.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BMICalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApartmentRaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +146,7 @@
           <list>
             <option value=":JUnit.HealthyCoderApp:test" />
             <option value="--tests" />
-            <option value="&quot;com.ip.BMICalculatorTest&quot;" />
+            <option value="&quot;com.ip.realestate.ApartmentRaterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +156,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test01MockitoSample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GeneratorCustomParamsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,32 +167,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":Mockito.HappyHotelApp:test" />
+            <option value=":JUnit.HealthyCoderApp:test" />
             <option value="--tests" />
-            <option value="&quot;com.ip.Test01MockitoSample&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":TestNG.Sample:test" />
-            <option value="--tests" />
-            <option value="&quot;TestExample&quot;" />
+            <option value="&quot;com.ip.realestate.RandomApartmentGeneratorTest$GeneratorCustomParamsTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,13 +187,16 @@
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.ApartmentRaterTest" />
+      <item itemvalue="Gradle.GeneratorCustomParamsTests" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestExample" />
+        <item itemvalue="Gradle.GeneratorCustomParamsTests" />
+        <item itemvalue="Gradle.ApartmentRaterTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Playground" />
-        <item itemvalue="Gradle.Test01MockitoSample" />
-        <item itemvalue="Gradle.BMICalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,5 +221,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/realestate/RandomApartmentGenerator.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

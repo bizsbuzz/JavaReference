@@ -1,5 +1,6 @@
-package com.ip;
+package com.ip.hotel;
 
+import com.ip.hotel.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
