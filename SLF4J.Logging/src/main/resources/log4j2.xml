@@ -1,0 +1,48 @@
+<configuration monitorinterval="60">
+    <properties>
+        <property name="log-path">src/test/resources/logs</property>
+        <property name="archive">${log-path}/archive</property>
+    </properties>
+    <appenders>
+        <console name="Console-Appender" target="SYSTEM_OUT">
+            <patternlayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>>
+            </patternlayout>
+        </console>
+        <file name="File-Appender" filename="${log-path}/xmlfilelog.log">
+            <patternlayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+            </patternlayout>
+        </file>
+        <rollingfile name="RollingFile-Appender" filename="${log-path}/rollingfile.log"
+                     filepattern="${archive}/rollingfile.log.%d{yyyy-MM-dd-hh-mm}.gz">
+            <patternlayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="1 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </rollingfile>
+    </appenders>
+    <loggers>
+
+        <!--        <Logger name="com.ip.x" level="debug">-->
+        <!--            <AppenderRef ref="File-Appender" level="info"/>-->
+        <!--        </Logger>-->
+
+        <logger name="com.ip" level="debug" additivity="false">
+            <appenderref ref="File-Appender" level="error"/>
+            <appenderref ref="RollingFile-Appender" level="debug"/>
+            <appenderref ref="Console-Appender" level="info"/>
+        </logger>
+        <root level="debug">
+            <appenderref ref="Console-Appender">
+            </appenderref>
+        </root>
+
+    </loggers>
+</configuration>

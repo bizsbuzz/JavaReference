@@ -5,35 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e101d1-0254-4937-892d-251d6f41cf78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Java.General/JavaReference.Java.General.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/BMICalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/Coder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/Coder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/DietPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/DietPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/DietPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/DietPlanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/main/java/com/ip/diet/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/classes/com.ip.Test01MockitoSample.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/reports/tests/test/packages/com.ip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/TEST-com.ip.Test01MockitoSample.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/CurrencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/main/java/com/ip/hotel/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com.ip/Test01MockitoSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mockito.HappyHotelApp/src/test/java/com/ip/hotel/Test01MockitoSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.Sample/src/test/java/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.Sample/src/test/java/TestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.General/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Java.General/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_win" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_win2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +61,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LWBK8L68Gf3cNtAfCoOEia6H1X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -91,94 +76,46 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowAWS Toolkit.ShowToolbar": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Git/Java/JavaReference/Mockito.HappyHotelApp/src/main/java/com/ip/realestate",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "E:/Git/Java/JavaReference/Java.General/src/main/java",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "project.structure.side.proportion": "0.41609195",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\Java\JavaReference\Java.General\src\main\java" />
       <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\main\java\com\ip\realestate" />
       <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\test\java\com.ip" />
       <recent name="E:\Git\Java\JavaReference\Mockito.HappyHotelApp\src\main\java\com\ip" />
       <recent name="E:\Git\Java\JavaReference\JUnit.HealthyCoderApp\src\test\java" />
-      <recent name="E:\Git\Java\JavaReference\Java.General\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\Java\JavaReference\SLF4J.Logging\src\main\resources" />
+      <recent name="E:\Git\Java\JavaReference\SLF4J.Logging\src\main\java\org\ip\x" />
+      <recent name="E:\Git\Java\JavaReference\SLF4J.Logging" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ip" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ip.OOM.fintech" />
+      <recent name="org.ip.x" />
       <recent name="com.ip.realestate" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ip.OOM" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.GeneratorCustomParamsTests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ip.general.Main" />
-      <module name="JavaReference.Java.General.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ip.general.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApartmentRaterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":JUnit.HealthyCoderApp:test" />
-            <option value="--tests" />
-            <option value="&quot;com.ip.realestate.ApartmentRaterTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GeneratorCustomParamsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":JUnit.HealthyCoderApp:test" />
-            <option value="--tests" />
-            <option value="&quot;com.ip.realestate.RandomApartmentGeneratorTest$GeneratorCustomParamsTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Application.com.ip.OOM.Main">
     <configuration default="true" type="aws.lambda" factoryName="Remote">
       <option name="credentialProviderId" />
       <option name="regionId" />
@@ -187,16 +124,107 @@
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="FinTech1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ip.OOM.fintech.FinTech1" />
+      <module name="JavaReference.Java.General.main" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=E:\Git\Java\JavaReference\Java.General\src\test\resources\hdumps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ip.OOM.fintech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchPad" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buggyapp.LaunchPad" />
+      <module name="buggyapp" />
+      <option name="PROGRAM_PARAMETERS" value="PROBLEM_OOM" />
+      <option name="VM_PARAMETERS" value="-Xmx50m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=E:\Git\Java\JavaReference\Java.General\src\test\resources\hdumps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buggyapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ip.OOM.hr.Main" />
+      <module name="JavaReference.Java.General.main" />
+      <option name="VM_PARAMETERS" value="-Xmx30m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=E:\Git\Java\JavaReference\Java.General\src\test\resources\hdumps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ip.OOM.hr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinTechTest" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Java.General:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ip.OOM.fintech.FinTechTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Xmx30m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=E:\Git\Java\JavaReference\Java.General\src\test\resources\hdumps" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log4J2XmlConfTest.logAllLogLevel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":SLF4J.Logging:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ip.x.Log4J2XmlConfTest.logAllLogLevel&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.ApartmentRaterTest" />
-      <item itemvalue="Gradle.GeneratorCustomParamsTests" />
+      <item itemvalue="Application.LaunchPad" />
+      <item itemvalue="Application.FinTech1" />
+      <item itemvalue="Application.com.ip.OOM.Main" />
+      <item itemvalue="Gradle.FinTechTest" />
+      <item itemvalue="Gradle.Log4J2XmlConfTest.logAllLogLevel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GeneratorCustomParamsTests" />
-        <item itemvalue="Gradle.ApartmentRaterTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FinTech1" />
+        <item itemvalue="Application.com.ip.OOM.Main" />
+        <item itemvalue="Gradle.Log4J2XmlConfTest.logAllLogLevel" />
       </list>
     </recent_temporary>
   </component>
