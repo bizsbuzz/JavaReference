@@ -1,7 +1,9 @@
-<configuration monitorinterval="60">
+<!--<configuration monitorinterval="60" status="debug" dest="log4j-internal.log">-->
+<configuration monitorinterval="60" status="debug" >
     <properties>
         <property name="log-path">src/test/resources/logs</property>
         <property name="archive">${log-path}/archive</property>
+        <property name="log4j2.debug">true</property>
     </properties>
     <appenders>
         <console name="Console-Appender" target="SYSTEM_OUT">
@@ -11,6 +13,13 @@
                 </pattern>>
             </patternlayout>
         </console>
+<!--        <file name="File-Appender-log4j" filename="${log-path}/log4j-internal.log">-->
+<!--            <patternlayout>-->
+<!--                <pattern>-->
+<!--                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n-->
+<!--                </pattern>-->
+<!--            </patternlayout>-->
+<!--        </file>-->
         <file name="File-Appender" filename="${log-path}/xmlfilelog.log">
             <patternlayout>
                 <pattern>
@@ -23,7 +32,7 @@
             <patternlayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-                <SizeBasedTriggeringPolicy size="1 KB"/>
+                <SizeBasedTriggeringPolicy size="100 KB"/>
             </Policies>
             <DefaultRolloverStrategy max="10"/>
         </rollingfile>
@@ -34,14 +43,14 @@
         <!--            <AppenderRef ref="File-Appender" level="info"/>-->
         <!--        </Logger>-->
 
-        <logger name="com.ip" level="debug" additivity="false">
+        <logger name="com.ip" level="debug" additivity="true">
             <appenderref ref="File-Appender" level="error"/>
-            <appenderref ref="RollingFile-Appender" level="debug"/>
-            <appenderref ref="Console-Appender" level="info"/>
+            <appenderref ref="RollingFile-Appender" level="info"/>
+            <!--            <appenderref ref="Console-Appender" level="info"/> -->
         </logger>
         <root level="debug">
-            <appenderref ref="Console-Appender">
-            </appenderref>
+            <!--            <appenderref ref="File-Appender" level="error"/>-->
+            <appenderref ref="Console-Appender"/>
         </root>
 
     </loggers>

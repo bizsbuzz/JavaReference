@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e101d1-0254-4937-892d-251d6f41cf78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit.HealthyCoderApp/src/test/java/com/ip/diet/BMICalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.General/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Java.General/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_linux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_win" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/expected_log_win2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.General/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Java.General/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SLF4J.Logging/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SLF4J.Logging/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SLF4J.Logging/src/test/java/com/ip/x/Log4J2XmlConfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SLF4J.Logging/src/test/java/com/ip/x/Log4J2XmlConfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +75,11 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Git/Java/JavaReference/Java.General/src/main/java",
+    "last_opened_file_path": "E:/Git/Java/Java-Core",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.41609195",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,15 +110,7 @@
       <recent name="com.ip.OOM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ip.OOM.Main">
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.JavaReference">
     <configuration name="FinTech1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ip.OOM.fintech.FinTech1" />
       <module name="JavaReference.Java.General.main" />
@@ -190,6 +177,48 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="JavaReference" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log4J2XmlConfTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":SLF4J.Logging:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ip.x.Log4J2XmlConfTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Log4J2XmlConfTest.logAllLogLevel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,15 +244,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.LaunchPad" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.FinTech1" />
-      <item itemvalue="Application.com.ip.OOM.Main" />
+      <item itemvalue="Gradle.JavaReference" />
       <item itemvalue="Gradle.FinTechTest" />
+      <item itemvalue="Gradle.Log4J2XmlConfTest" />
       <item itemvalue="Gradle.Log4J2XmlConfTest.logAllLogLevel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Log4J2XmlConfTest" />
         <item itemvalue="Application.FinTech1" />
-        <item itemvalue="Application.com.ip.OOM.Main" />
         <item itemvalue="Gradle.Log4J2XmlConfTest.logAllLogLevel" />
       </list>
     </recent_temporary>

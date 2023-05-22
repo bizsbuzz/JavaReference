@@ -5,6 +5,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/*
+E:\Git\Java\JavaReference\SLF4J.Logging\src\test\resources\logs
+ */
 
 class Log4J2XmlConfTest {
 
